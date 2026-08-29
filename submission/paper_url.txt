@@ -1,1 +1,1 @@
-PASTE-YOUR-DEPLOYED-PAPER-URL-HERE
+https://rowan-ali.github.io/flyrank-ml-internship/submission/paper/
