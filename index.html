@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>FlyRank ML Internship Capstone</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f5f7fb;
+    color:#222;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    padding:60px 25px;
+}
+
+.card{
+    background:white;
+    border-radius:14px;
+    padding:40px;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+
+h1{
+    color:#0b57d0;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#666;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.abstract{
+    background:#f8fafc;
+    border-left:5px solid #0b57d0;
+    padding:20px;
+    margin:30px 0;
+    line-height:1.7;
+}
+
+.buttons{
+    margin-top:35px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 24px;
+    margin-right:12px;
+    margin-bottom:10px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.primary{
+    background:#0b57d0;
+    color:white;
+}
+
+.secondary{
+    background:#eceff3;
+    color:#222;
+}
+
+footer{
+    margin-top:40px;
+    color:#777;
+    font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>
+Ranking Content at Risk of Becoming
+<code>went_dark</code>
+Using February Search Signals
+</h1>
+
+<div class="subtitle">
+FlyRank ML Internship — Capstone Research Project
+</div>
+
+<p>
+<b>Author:</b> Rowan Ali
+</p>
+
+<p>
+<b>Model:</b> Logistic Regression
+</p>
+
+<p>
+<b>Primary Metric:</b> Precision@50 = 0.280
+</p>
+
+<p>
+<b>Validation ROC-AUC:</b> 0.775
+</p>
+
+<div class="abstract">
+
+<h2>Abstract</h2>
+
+<p>
+
+This project develops a ranking model that identifies eligible content with an elevated risk of becoming <b>went_dark</b> in the following month. Predictive features were derived from February 2026 search and engagement signals, while March 2026 data were used exclusively for outcome construction. A Logistic Regression model with client-grouped validation achieved a Precision@50 of <b>0.280</b> and a ROC-AUC of <b>0.775</b>. The resulting ranking is intended as a decision-support tool for prioritizing manual content review rather than establishing causal relationships.
+
+</p>
+
+</div>
+
+<div class="buttons">
+
+<a class="btn primary"
+href="submission/paper/">
+📄 Read Research Paper
+</a>
+
+<a class="btn secondary"
+href="https://github.com/Rowan-ali/flyrank-ml-internship">
+💻 View Repository
+</a>
+
+</div>
+
+<footer>
+
+Built on the FlyRank ML Internship Dataset.
+
+</footer>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
