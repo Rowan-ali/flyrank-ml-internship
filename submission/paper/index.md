@@ -233,6 +233,27 @@ The reported results should therefore be interpreted as evidence of ranking effe
 
 Across the held-out validation population, the Logistic Regression model consistently outperformed the Week-4 baseline according to the predefined evaluation protocol. The combination of improved Precision@50 and a ROC-AUC of **0.775** supports the selection of Logistic Regression as the final ranking model for this study.
 
+## Figure 1. Precision@50 Comparison
+
+![Precision@50](images/precision_at_50.png)
+
+**Figure 1.** Comparison of Precision@50 between the Week-4 baseline and the final Logistic Regression model.
+
+## Figure 2. ROC-AUC
+
+![ROC-AUC](images/roc_auc.png)
+
+**Figure 2.** Validation ROC-AUC achieved by the final Logistic Regression model.
+
+## Figure 3. Top-50 Recommendation Composition
+
+![Top50](images/top50_distribution.png)
+
+**Figure 3.** Composition of the top-50 ranked recommendations.
+
+
+
+
 
 
 
